@@ -169,7 +169,7 @@ export function Hero() {
             <motion.button
               onClick={() => {
                 const link = document.createElement('a');
-                link.href = '/resume.pdf';
+                link.href = 'https://drive.google.com/file/d/1Gx5Ua88zHfnOpYYs8PhflUe7VwuNQ2uj/view?usp=sharing';
                 link.download = 'Guru_Anand_Resume.pdf';
                 link.click();
               }}
